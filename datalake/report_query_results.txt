@@ -1,0 +1,27 @@
+SILVER LOANS SAMPLE
+MemberID | BookID | LoanStatus
+M0060 | B00433 | Returned
+M0282 | B00491 | Returned
+M0085 | B00457 | Returned
+M0011 | B00424 | Returned
+M0049 | B00189 | Returned
+
+SILVER PARQUET COLUMN METADATA
+ColumnName | PhysicalType | ValueCount | CompressedSizeBytes
+MemberID | BYTE_ARRAY | 12344 | 15151
+BookID | BYTE_ARRAY | 12344 | 15972
+CopySeqNo | INT64 | 12344 | 4784
+StaffID | BYTE_ARRAY | 12344 | 9556
+LoanDatetime | INT64 | 12344 | 113934
+DueDate | INT32 | 12344 | 23429
+ReturnDatetime | INT64 | 12344 | 114966
+LoanStatus | BYTE_ARRAY | 12344 | 103
+
+MOST POPULAR GENRE BY YEAR
+LoanYear | MostPopularGenre | TotalGenreLoans | GenreSharePercentage
+2020 | Children | 79 | 17.17
+2021 | Science | 95 | 16.81
+2022 | Research Journal | 138 | 18.25
+2023 | Research Journal | 182 | 17.48
+2024 | Research Journal | 294 | 17.04
+2025 | Research Journal | 1322 | 16.96

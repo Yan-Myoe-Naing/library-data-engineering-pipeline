@@ -1,0 +1,51 @@
+{
+  "bronze_counts": {
+    "members": 301,
+    "books": 500,
+    "book_copies": 1265,
+    "loans": 12345,
+    "staff": 51,
+    "membership_tiers": 4
+  },
+  "rules_applied": {
+    "member_gender_standardised": 301,
+    "member_tier_id_corrected": 1,
+    "membership_borrow_limits_corrected": 3,
+    "staff_gender_standardised": 51,
+    "book_copy_status_spelling_corrected": 4,
+    "book_copy_marked_on_loan": 1,
+    "shifted_loan_statuses_restored": 6,
+    "outstanding_loan_status_derived": 1,
+    "loan_rows_quarantined": 1,
+    "unnamed_columns_removed": 6
+  },
+  "silver_counts": {
+    "members": 301,
+    "books": 500,
+    "book_copies": 1265,
+    "loans": 12344,
+    "staff": 51,
+    "membership_tiers": 4
+  },
+  "foreign_key_failures": {
+    "members_to_tiers": 0,
+    "books_to_tiers": 0,
+    "copies_to_books": 0,
+    "loans_to_members": 0,
+    "loans_to_staff": 0,
+    "loans_to_book_copies": 0
+  },
+  "completed_loans": 12343,
+  "outstanding_loans": 1,
+  "optional_missing_occupations": 43,
+  "validation_status": "PASS",
+  "generated_at_utc": "2026-08-06T15:39:44.921791+00:00",
+  "silver_files": [
+    "book_copies.parquet",
+    "books.parquet",
+    "loans.parquet",
+    "members.parquet",
+    "membership_tiers.parquet",
+    "staff.parquet"
+  ]
+}

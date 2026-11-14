@@ -1,0 +1,15 @@
+Bronze/
+Silver/
+Gold/
+Quarantine/
+.python_deps/
+__pycache__/
+*.py[cod]
+*.xlsx
+*.xls
+*.csv
+*.docx
+*.zip
+OLTP_insert.sql
+Book_insert.js
+*.jsonl
